@@ -68,3 +68,7 @@
 * 강화학습 모델링
     * Agent 클래스, Policy_network 모듈 정의
 
+2018.12.09
+---
+* 강화학습 모델링
+    * Visualizer, Policy_learner 클래스 정의
