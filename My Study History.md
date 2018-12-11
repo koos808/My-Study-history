@@ -123,6 +123,7 @@
         * `Microsoft Build Tools 2015 Update 3` 설치
         * `Microsoft Visual C++ 2015 Redistributable` 또는 `Visual Studio 2015 Community` 설치
         * 잡다한 오류가 고쳐지지 않아서 cuda 9.0 version으로 설치함.
+        * http://kjun.kr/770 : 버전설명 잘되어 있음
     * 최종
         * python 3.66 , cuda_9.0.176.1 , cudnn 9.0-v7.3.1.20
         * `pip install --ignore-installed --upgrade tensorflow-gpu==1.5` 1.5버전으로 안깔면 지정된 모듈을 찾을 수 없습니다라는 오류가 발생.
