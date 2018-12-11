@@ -80,7 +80,7 @@
 
 2018.12.11
 * 데스크톱 `WOL(Wake On Lan)` 설정
-    + `1. 바이어스 설정
+    +1. 바이어스 설정
         + 애즈락 메인보드를 사용하고 있으므로 애즈락 UEFI 설정해줌.
         + Adcanced -> ACPI Configuration -> PCIE Devices Power On -> Enabled 로 변경.
     + 2. 장치관리자 설정
