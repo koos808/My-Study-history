@@ -135,6 +135,7 @@
         sess = tf.Session()
         print(sess.run(hello))
         ```
+    * 마지막으로 PATH 저장해줌.
 
 
 
