@@ -106,7 +106,10 @@
 2018.12.12
 ---
 * Desktop GPU(Tensorflow-GPU) 사용하기 위해 세팅
-    * 새로운 가상환경 만들었는데 python 3.7버전으로 만드니 tensorfㅇlow가 안깔렸음
-    * python 3.6 버전으로 낮춰서 가상환경 설치함.
-    * cuda 설치 : 구글에 cuda toolkit 검색 - Download Now - Legacy Releases - cuda toolkit 10.0 설치
-    * cuDNN 라이브러리 설치 : 구글에 cudnn 검색 - NAVIDA Developer 회원가입 - cuDNN Download - Download cuDNN v7.4.1[Nov 8, 2018] for CUDA 10.0 version 설치 [windows]  
+    * 새로운 가상환경 생성
+        * python 3.7버전으로 만드니 tensorfㅇlow가 안깔렸음
+        * python 3.6 버전으로 낮춰서 가상환경 설치함.
+    * cuda 설치
+        * 구글에 cuda toolkit 검색 - Download Now - Legacy Releases - cuda toolkit 10.0 설치
+    * cuDNN 라이브러리 설치
+        * 구글에 cudnn 검색 - NAVIDA Developer 회원가입 - cuDNN Download - Download cuDNN v7.4.1[Nov 8, 2018] for CUDA 10.0 version 설치 [windows]  
