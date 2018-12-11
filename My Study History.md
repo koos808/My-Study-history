@@ -106,3 +106,7 @@
 2018.12.12
 ---
 * Desktop GPU(Tensorflow-GPU) 사용하기 위해 세팅
+    * 새로운 가상환경 만들었는데 python 3.7버전으로 만드니 tensorfㅇlow가 안깔렸음
+    * python 3.6 버전으로 낮춰서 가상환경 설치함.
+    * 구글에 cuda toolkit 검색해서 사이트 입장 - Download Now - Legacy Releases - cuda toolkit 10.0 설치
+    
