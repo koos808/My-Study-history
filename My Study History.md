@@ -107,14 +107,26 @@
 ---
 * Desktop GPU(Tensorflow-GPU) 사용하기 위해 세팅
     * 새로운 가상환경 생성
-        * python 3.7버전으로 만드니 tensorfㅇlow가 안깔렸음
-        * python 3.6 버전으로 낮춰서 가상환경 설치함.
-        * 마지막까지 다 완료했는데 python 버전이 안맞다함. 최종으로 python 3.5 버전을 사용함.
+        * python 3.7버전으로 만드니 tensorflow가 안깔렸음. python 3.6 버전으로 낮춰서 가상환경 설치함.
+        * Anaconda Prompt에서 conda create를 사용하여 했는데 계속 python 3.7 버전으로 깔려서 python 3.6버전을 구글에서 다운받아 설치함.
+        * 최종으로 python 3.6 버전을 사용함.
     * cuda 설치
         * 구글에 cuda toolkit 검색 - Download Now - Legacy Releases - cuda toolkit 10.0 설치
     * cuDNN 라이브러리 설치
         * 구글에 cudnn 검색 - NAVIDA Developer 회원가입 - cuDNN Download - Download cuDNN v7.4.1[Nov 8, 2018] for CUDA 10.0 version 설치 [windows]  
         * 다운 받은 zip 파일 압축 풀면 cuda 파일이 존재한다. 그 안의 'bin', 'include', 'lib' 세 폴더를 CUDA 폴더에 덮어쓰면 됨.
+    * `pip` -> tensorflow-gpu, keras, matplotlib, pandas, numpy
+    * 멀티커널은 안사용하는게 나음. -> no install -> `conda install nb_conda` XXX
+    * 각종 오류 발생
+        * `Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2` 에러 발생.
+        *  `Microsoft Visual C++ 2015 Redistributable Update 3 x64` 설치
+        * `Microsoft Build Tools 2015 Update 3` 설치
+        * `Microsoft Visual C++ 2015 Redistributable` 또는 `Visual Studio 2015 Community` 설치
+        * 잡다한 오류가 고쳐지지 않아서 cuda 9.0 version으로 설치함.
+    * 최종
+        * python 3.66 , cuda_9.0.176.1 , cudnn 9.0-v7.3.1.20
+        * `pip install --ignore-installed --upgrade tensorflow-gpu==1.5` 1.5버전으로 안깔면 지정된 모듈을 찾을 수 없습니다라는 오류가 발생.
+        * 버전 다운그레이드해서 tensor_GPU 가상환경에 최종적으로 만듬.  
     * 텐서플로의 GPU 사용 최종 확인
         ```
         import tensorflow as tf
@@ -122,3 +134,6 @@
         sess = tf.Session()
         print(sess.run(hello))
         ```
+
+
+
