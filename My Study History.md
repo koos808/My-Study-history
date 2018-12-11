@@ -109,7 +109,16 @@
     * 새로운 가상환경 생성
         * python 3.7버전으로 만드니 tensorfㅇlow가 안깔렸음
         * python 3.6 버전으로 낮춰서 가상환경 설치함.
+        * 마지막까지 다 완료했는데 python 버전이 안맞다함. 최종으로 python 3.5 버전을 사용함.
     * cuda 설치
         * 구글에 cuda toolkit 검색 - Download Now - Legacy Releases - cuda toolkit 10.0 설치
     * cuDNN 라이브러리 설치
         * 구글에 cudnn 검색 - NAVIDA Developer 회원가입 - cuDNN Download - Download cuDNN v7.4.1[Nov 8, 2018] for CUDA 10.0 version 설치 [windows]  
+        * 다운 받은 zip 파일 압축 풀면 cuda 파일이 존재한다. 그 안의 'bin', 'include', 'lib' 세 폴더를 CUDA 폴더에 덮어쓰면 됨.
+    * 텐서플로의 GPU 사용 최종 확인
+        ```
+        import tensorflow as tf
+        hello = tf.constant('Hello, Tensorflow!')
+        sess = tf.Session()
+        print(sess.run(hello))
+        ```
