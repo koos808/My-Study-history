@@ -202,4 +202,4 @@
             가장 많이 오른 종목 : 골든브릿지증권(26.99%)
             가장 많이 하락한 종목 : 아모레퍼시픽(-4.23%) 
             ```
-![default](https://user-images.githubusercontent.com/44763265/51785896-1dcd7980-21a0-11e9-838b-90a47b3822c8.PNG)
+    * ![default](https://user-images.githubusercontent.com/44763265/51785896-1dcd7980-21a0-11e9-838b-90a47b3822c8.PNG)
