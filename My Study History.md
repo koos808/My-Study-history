@@ -212,6 +212,6 @@
 
 2019.03.01
 ---
-* SVM Code submit
+* SVM Code Sumit
 * kaggle data analysis
 
