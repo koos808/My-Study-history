@@ -263,3 +263,7 @@
 2020.02.03
 * Edwith - 논문으로 짚어보는 딥러닝의 맥
     * lecture 3 : Convolutional Neural Network(CNN)의 기초
+
+2020.02.12
+* Edwith - 논문으로 짚어보는 딥러닝의 맥
+    * lecture 7 : 4가지 CNN 살펴보기: AlexNET, VGG, GoogLeNet, ResNet
