@@ -267,3 +267,11 @@
 2020.02.12
 * Edwith - 논문으로 짚어보는 딥러닝의 맥
     * lecture 7 : 4가지 CNN 살펴보기: AlexNET, VGG, GoogLeNet, ResNet
+
+~2020.02.20
+* Edwith - 논문으로 짚어보는 딥러닝의 맥
+    * lecture 8 : Overfitting을 막는 regularization
+
+* 2020.02.22
+  * 실전 투자자의 매매 기록 수집 방법 고안
+    * 1.미래에셋대우 & 키움 계좌 및 아이디 생성[02.22 오후 9시 개설 - 신분증 진위 확인 소요 시간때문에 바로 진행 x]
