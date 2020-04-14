@@ -83,11 +83,13 @@
     1. 바이어스 설정
         + 애즈락 메인보드를 사용하고 있으므로 애즈락 UEFI 설정해줌.
         + Adcanced -> ACPI Configuration -> PCIE Devices Power On -> Enabled 로 변경.
+        + MSI 메인보드 -> SETTING - Advanced - Wake Up Event Setup - 두번째나 세번째 줄에  Resume By PCI-E Device이랑 온보드 옵션을 
+        + DEnabled 로 바꾸고  저장하고 재부팅 (https://m.blog.naver.com/hansimee79/220783602034)
     2. 장치관리자 설정
         + 네트워크 어댑터 - 속성 - 전원 관리 -  전원을절약하기 위해 컴퓨터가 이 장치를 끌 수 있음.[체크 해제]
         + 고급 - 매직 패킷, 패턴 패킷, 웨이크 온 랜, wake up 종료 사용으로 변경
     3. 공유기 설정 [IPTIME]
-        + 192.168.0.1 로 공유기 설정 접속
+        + 192.168.0.1 로 공유기 설정 접속(접속 안되면 cmd-ipconfig-기본 게이트웨이 ip로 접속)
         + 관리도구 - 고급설정 - 보안기능 - 공유기 접속 관리
           + 공유기 외부 접속 허용 : 원격 관리 포트 사용 체크 - 포트에 임의의 숫자 입력(무작위 1025)
           + DDNS 설정 : 특수기능 - DDNS 설정 - iptime DDNS 선택 - 호스트 이름에는 임의의 호스트 이름을 만들고, 사용자 ID에는 이메일 아이디를, 사용자 암호에는 접속용 암호를 설정한다. 마지막으로 추가 클릭
